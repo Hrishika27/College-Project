@@ -9,7 +9,7 @@ def show_score():
     else:
         print("The current high score is {} attempts".format(min(attempts_list)))
 def start_game():
-    random_number = int(random.randint(1, 20))
+    random_number = int(random.randint(1, 10))
     print("Hello !! Welcome to Number Guessing Game!")
     player_name = input("What is your name? ")
     wanna_play = input("Hi, {}, would you like to play the guessing game? (Enter Yes/No) ".format(player_name))
